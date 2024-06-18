@@ -19,8 +19,7 @@ const GetGender = () => {
         }).filter(name => name != null).join(', ');
     };
 
-    // Substitua 'results' pelo seu estado ou prop que contém os dados dos filmes
-    const results = []; // Exemplo de dados
+    const results = []; 
 
     return (
         <div>
